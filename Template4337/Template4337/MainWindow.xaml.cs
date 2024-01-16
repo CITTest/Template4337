@@ -25,9 +25,10 @@ namespace Template4337
             InitializeComponent();
         }
 
-        private void gruppa4337_Gatina(object sender, RoutedEventArgs e)
+      
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-           Gatina_4337 g= new Gatina_4337();
+            Sadykova_4337 g = new Sadykova_4337();
             g.Show();
         }
     }
