@@ -30,5 +30,10 @@ namespace Template4337
            Gatina_4337 g= new Gatina_4337();
             g.Show();
         }
+        private void gruppa4337_Zaharova(object sender, RoutedEventArgs e)
+        {
+            Zaharova z = new Zaharova();
+            z.Show();
+        }
     }
 }
