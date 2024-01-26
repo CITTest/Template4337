@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="Bakasov_4337" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock>Артур 18+</TextBlock> 
     </Grid>
 </Window>
