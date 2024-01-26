@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Gatina_4337.xaml">
+    <Page Include="Mubinov_4337.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -63,8 +63,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Gatina_4337.xaml.cs">
-      <DependentUpon>Gatina_4337.xaml</DependentUpon>
+    <Compile Include="Mubinov_4337.xaml.cs">
+      <DependentUpon>Mubinov_4337.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
