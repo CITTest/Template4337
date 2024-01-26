@@ -15,11 +15,10 @@ using System.Windows.Shapes;
 namespace Template4337
 {
     /// <summary>
-    /// Логика взаимодействия для Gatina_4337.xaml
     /// </summary>
-    public partial class Gatina_4337 : Window
+    public partial class Mubinov_4337 : Window
     {
-        public Gatina_4337()
+        public Mubinov_4337()
         {
             InitializeComponent();
         }
