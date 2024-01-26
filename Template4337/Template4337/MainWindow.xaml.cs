@@ -30,5 +30,11 @@ namespace Template4337
            Gatina_4337 g= new Gatina_4337();
             g.Show();
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            Balashov4337 b = new Balashov4337();
+            b.Show();
+        }
     }
 }
