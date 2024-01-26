@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Template4337"
         mc:Ignorable="d"
-        Title="Sadykova_4337" Height="450" Width="800">
+        Title="Sadykova_4337" Height="45" Width="150">
     <Grid>
-        
+        <TextBlock Text="Садыкова Диляра, 18 лет"/>
     </Grid>
 </Window>
