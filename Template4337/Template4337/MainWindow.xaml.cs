@@ -25,10 +25,10 @@ namespace Template4337
             InitializeComponent();
         }
 
-        private void gruppa4337_Gatina(object sender, RoutedEventArgs e)
+        private void Karunas_4337(object sender, RoutedEventArgs e)
         {
-           Gatina_4337 g= new Gatina_4337();
-            g.Show();
+            Karunas_4337 k = new Karunas_4337();
+            k.Show();
         }
     }
 }
