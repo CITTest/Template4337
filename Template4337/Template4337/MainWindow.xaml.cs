@@ -30,5 +30,11 @@ namespace Template4337
            Gatina_4337 g= new Gatina_4337();
             g.Show();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Sadykova_4337 sad = new Sadykova_4337();
+            sad.Show();
+        }
     }
 }
