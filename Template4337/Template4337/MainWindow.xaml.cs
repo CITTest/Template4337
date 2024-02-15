@@ -27,7 +27,7 @@ namespace Template4337
 
         private void gruppa4337_Gatina(object sender, RoutedEventArgs e)
         {
-           Gatina_4337 g= new Gatina_4337();
+           gusmanov4337 g= new gusmanov4337();
             g.Show();
         }
     }
