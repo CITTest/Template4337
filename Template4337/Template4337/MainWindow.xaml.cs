@@ -30,5 +30,16 @@ namespace Template4337
            Gatina_4337 g= new Gatina_4337();
             g.Show();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Kurbanov_4337 g = new Kurbanov_4337();
+            g.Show();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
