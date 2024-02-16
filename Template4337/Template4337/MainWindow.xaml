@@ -38,6 +38,6 @@
             <RowDefinition Height="*"></RowDefinition>
 
         </Grid.RowDefinitions>
-        <Button Name="button" Grid.Row="3" Content="Гатина" Click="gruppa4337_Gatina" />
+        <Button Name="button" Grid.Row="3" Content="Курбанов 4337" Click="gruppa4337_Kurbanov" />
     </Grid>
 </Window>
