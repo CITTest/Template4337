@@ -26,8 +26,14 @@ namespace Template4337
         }
 
         private void gruppa4337_Gatina(object sender, RoutedEventArgs e)
-        {
+        { 
            Gatina_4337 g= new Gatina_4337();
+            g.Show();
+        }
+
+        private void gruppa4337_Gafiyatullin(object sender, RoutedEventArgs e)
+        {
+            Gafiyatullin4337 g= new Gafiyatullin4337();
             g.Show();
         }
     }

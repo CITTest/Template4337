@@ -39,5 +39,6 @@
 
         </Grid.RowDefinitions>
         <Button Name="button" Grid.Row="3" Content="Гатина" Click="gruppa4337_Gatina" />
+        <Button x:Name="button1" Grid.Row="5" Content="Гафиятуллин" Click="gruppa4337_Gafiyatullin"></Button>
     </Grid>
 </Window>
