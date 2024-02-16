@@ -34,3 +34,5 @@ C:\Users\Ирина\Desktop\ащкл\Template4337\Template4337\Template4337\obj\
 C:\Users\Ирина\Desktop\ащкл\Template4337\Template4337\Template4337\obj\Debug\Template4337.Properties.Resources.resources
 C:\Users\Ирина\Desktop\ащкл\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.GenerateResource.cache
 C:\Users\Ирина\Desktop\ащкл\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.CoreCompileInputs.cache
+C:\Users\Ирина\Desktop\ащкл\Template4337\Template4337\Template4337\obj\Debug\Kurbanov_4337.g.cs
+C:\Users\Ирина\Desktop\ащкл\Template4337\Template4337\Template4337\obj\Debug\Kurbanov_4337.baml
