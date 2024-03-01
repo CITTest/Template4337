@@ -82,7 +82,7 @@ namespace Template4337 {
             this.button = ((System.Windows.Controls.Button)(target));
             
             #line 41 "..\..\MainWindow.xaml"
-            this.button.Click += new System.Windows.RoutedEventHandler(this.gruppa4337_Gatina);
+            this.button.Click += new System.Windows.RoutedEventHandler(this.gruppa4337_Zakirov);
             
             #line default
             #line hidden

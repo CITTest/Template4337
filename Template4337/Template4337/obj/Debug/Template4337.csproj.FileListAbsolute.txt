@@ -16,3 +16,7 @@ C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Template4337.exe
 C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Template4337.pdb
 C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.g.cs
 C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.baml
+C:\Users\Ranil\Gruzin\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.AssemblyReference.cache
+C:\Users\Ranil\Gruzin\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ranil\Gruzin\Template4337\Template4337\Template4337\obj\Debug\Template4337.exe
+C:\Users\Ranil\Gruzin\Template4337\Template4337\Template4337\obj\Debug\Template4337.pdb
