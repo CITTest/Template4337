@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Template4337
 {
     /// <summary>
-    /// Логика взаимодействия для Gatina_4337.xaml
+    /// Логика взаимодействия для nAYAKSHIN.xaml
     /// </summary>
-    public partial class Gatina_4337 : Window
+    public partial class nAYAKSHIN : Window
     {
-        public Gatina_4337()
+        public nAYAKSHIN()
         {
             InitializeComponent();
         }
