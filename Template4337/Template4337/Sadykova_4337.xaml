@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Template4337"
         mc:Ignorable="d"
-        Title="Sadykova_4337" Height="45" Width="150">
+        Title="Sadykova_4337" Height="150" Width="450">
     <Grid>
-        <TextBlock Text="Садыкова Диляра, 18 лет"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Margin="0,30,0,0" HorizontalAlignment="Center" Text="Садыкова Диляра"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Margin=" 0, 20, 10, 0" Content="Импорт данных" />
+            <Button Margin=" 10, 20, 0 , 0" Content="Экспорт данных" />
+        </StackPanel>
+        <!-- Здесь вы можете разместить остальную часть вашего интерфейса -->
     </Grid>
 </Window>
