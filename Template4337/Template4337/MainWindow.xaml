@@ -39,5 +39,10 @@
 
         </Grid.RowDefinitions>
         <Button Name="button" Grid.Row="3" Content="Гатина" Click="gruppa4337_Gatina" />
+<<<<<<< HEAD
+<Button Name="button" Grid.Row="20" Content="Тищенко" Click="gruppa4337_Tishchenko" />
+=======
+        <Button Name="button1" Grid.Row="20" Content="Тищенко" Click="gruppa4337_Tishchenko" />
+>>>>>>> ec99bfa (AAAAAAAAAAAA)
     </Grid>
 </Window>

@@ -30,5 +30,16 @@ namespace Template4337
            Gatina_4337 g= new Gatina_4337();
             g.Show();
         }
+
+        private void gruppa4337_Tishchenko(object sender, RoutedEventArgs e)
+        {
+<<<<<<< HEAD
+           Tishchenko_4337 g= new Tishchenko_4337();
+            g.Show();
+=======
+            Tishchenko_4337 a = new Tishchenko_4337();
+            a.Show();
+>>>>>>> ec99bfa (AAAAAAAAAAAA)
+        }
     }
 }
