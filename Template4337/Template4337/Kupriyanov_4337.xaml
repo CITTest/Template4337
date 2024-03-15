@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="Kupriyanov_4337" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="Куприянов Артём 18 лет"/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Куприянов Артём 18 лет"/>
+        <Button Grid.Row="1" Click="ImportExcel">Импорт из excel</Button>
+        <Button Grid.Row="2" Click="ExportExcel">Экспорт в excel</Button>
     </Grid>
 </Window>
