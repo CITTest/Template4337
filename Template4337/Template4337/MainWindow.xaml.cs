@@ -27,7 +27,7 @@ namespace Template4337
 
         private void gruppa4337_Kadorkin(object sender, RoutedEventArgs e)
         {
-            Gatina_4337 g = new Gatina_4337();
+            Kadorkin g = new Kadorkin();
             g.Show();
         }
     }
