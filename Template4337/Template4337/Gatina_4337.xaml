@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Template4337"
         mc:Ignorable="d"
-        Title="Gatina_4337" Height="450" Width="800">
+        Title="Kadorkin_4337" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="Гатина Анжела 19 лет"/>
+        <TextBlock Text="Кадоркин Маркел 19 лет"/>
     </Grid>
 </Window>
