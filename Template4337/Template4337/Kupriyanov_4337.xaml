@@ -12,8 +12,14 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Text="Куприянов Артём 18 лет"/>
-        <Button Grid.Row="1" Click="ImportExcel">Импорт из excel</Button>
-        <Button Grid.Row="2" Click="ExportExcel">Экспорт в excel</Button>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Куприянов Артём 18 лет"/>
+        <Button Grid.Column="0" Grid.Row="1" Click="ImportExcel">Импорт из excel</Button>
+        <Button Grid.Column="0" Grid.Row="2" Click="ExportExcel">Экспорт в excel</Button>
+        <Button Grid.Column="1" Grid.Row="1" Click="ImportJson">Импорт из json</Button>
+        <Button Grid.Column="1" Grid.Row="2" Click="ExportWord">Экспорт в word</Button>
     </Grid>
 </Window>
