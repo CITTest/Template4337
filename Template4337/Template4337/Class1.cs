@@ -9,18 +9,21 @@ namespace Template4337
     {
         [JsonIgnore]
         public int Id { get; set; }
-        [JsonPropertyName("Name")]
+        [JsonPropertyName("NameServices")]
         public string Name { get; set; }
-        [JsonPropertyName("View")]
+        [JsonPropertyName("TypeOfService")]
         public string View { get; set; }
-        [JsonPropertyName("Code")]
+        [JsonPropertyName("CodeService")]
         public string Code { get; set; }
 
-        [JsonPropertyName("Price")]
-        [JsonConverter(typeof(StringToIntConverter))]
-        public int Price { get; set; }
+        [JsonPropertyName("Cost")]
+        public int? Price { get; set; }
         public int Group { get; set; }
 
+        public class1()
+        {
+
+        }
         public class1(string  name, string view, string code, int price)
         {
             Name = name;
@@ -28,6 +31,12 @@ namespace Template4337
             Code = code;
             Price = price;
 
+            if (Price < 351) Group = 0;
+            if (Price > 350 && Price < 800) Group = 1;
+            if (Price > 800) Group = 2;
+        }
+        public void checkGroup()
+        {
             if (Price < 351) Group = 0;
             if (Price > 350 && Price < 800) Group = 1;
             if (Price > 800) Group = 2;

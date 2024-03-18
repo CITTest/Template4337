@@ -121,3 +121,7 @@ C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\Sys
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.Text.Json.xml
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.ValueTuple.xml
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.dll
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.xml
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.SqlServer.xml
