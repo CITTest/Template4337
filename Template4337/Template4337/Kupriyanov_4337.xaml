@@ -1,0 +1,25 @@
+﻿<Window x:Class="Template4337.Kupriyanov_4337"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template4337"
+        mc:Ignorable="d"
+        Title="Kupriyanov_4337" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Куприянов Артём 18 лет"/>
+        <Button Grid.Column="0" Grid.Row="1" Click="ImportExcel">Импорт из excel</Button>
+        <Button Grid.Column="0" Grid.Row="2" Click="ExportExcel">Экспорт в excel</Button>
+        <Button Grid.Column="1" Grid.Row="1" Click="ImportJson">Импорт из json</Button>
+        <Button Grid.Column="1" Grid.Row="2" Click="ExportWord">Экспорт в word</Button>
+    </Grid>
+</Window>
