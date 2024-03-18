@@ -10,15 +10,17 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
-            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Grid.Column="1" Grid.Row="1" Content="Голубин Родион 4337"></Label>
+        <Label Grid.Column="0" Grid.Row="0" Content="Голубин Родион 4337"></Label>
+        <Button Grid.Column="0" Grid.Row="1" Click="ExportExcel">Экспорт excel</Button>
+        <Button Grid.Column="0" Grid.Row="2" Click="ImportExcel">Импорт данных excel</Button>
+        <Button Grid.Column="1" Grid.Row="1" Click="ImportJson">Импорт JSON</Button>
+        <Button Grid.Column="1" Grid.Row="2" Click="ExportWord">экспорт Word</Button>
     </Grid>
     
 </Window>
