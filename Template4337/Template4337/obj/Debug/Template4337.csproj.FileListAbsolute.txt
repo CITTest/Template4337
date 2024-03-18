@@ -112,3 +112,6 @@ C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\ru\
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\obj\Debug\Template.CD701948.Up2Date
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.ResolveComReference.cache

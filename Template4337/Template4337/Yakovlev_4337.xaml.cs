@@ -10,6 +10,9 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using Excel = Microsoft.Office.Interop.Excel;
+using System.Windows.Forms.VisualStyles;
+using static System.Windows.Forms.AxHost;
 
 namespace Template4337
 {
@@ -38,7 +41,7 @@ namespace Template4337
             if (!result.HasValue || !result.Value)
                 return;
 
-            /*var excelWork = new Excel.Application();
+            var excelWork = new Excel.Application();
             var ServWork = excelWork.Workbooks.Open(openFileDialog.FileName);
 
             var ServWorkSheet = (Excel.Worksheet)ServWork.Sheets[1];
@@ -75,7 +78,7 @@ namespace Template4337
             catch (Exception ex)
             {
                 MessageBox.Show($"Ошибка базы данных {ex.Message}");
-            }*/
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -90,7 +93,7 @@ namespace Template4337
             {
                 var status = context.Class1s.GroupBy(p => p.Group).Select(p => p.Key).ToList();
 
-                /*var app = new Excel.Application();
+                var app = new Excel.Application();
                 app.SheetsInNewWorkbook = 3;
                 var workbook = app.Workbooks.Add(Type.Missing);
 
@@ -120,7 +123,7 @@ namespace Template4337
                     }
                 }
 
-                app.Visible = true;*/
+                app.Visible = true;
             }
         }
 
