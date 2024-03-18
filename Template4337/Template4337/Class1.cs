@@ -1,20 +1,23 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Template4337
 {
     public class class1
     {
+        [JsonIgnore]
         public int Id { get; set; }
+        [JsonPropertyName("Name")]
         public string Name { get; set; }
+        [JsonPropertyName("View")]
         public string View { get; set; }
+        [JsonPropertyName("Code")]
         public string Code { get; set; }
+
+        [JsonPropertyName("Price")]
+        [JsonConverter(typeof(StringToIntConverter))]
         public int Price { get; set; }
         public int Group { get; set; }
 
@@ -32,8 +35,6 @@ namespace Template4337
     }
     public partial class Context : DbContext
     {
-        
-
         public virtual DbSet<class1> Class1s { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -45,4 +46,25 @@ namespace Template4337
         }
         public Context() => Database.EnsureCreated();
     }
+
+    // JSON
+
+    internal class StringToIntConverter : JsonConverter<int?>
+    {
+        public override int? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+        {
+            int result;
+
+            if (!int.TryParse(reader.GetString(), out result))
+                return null;
+
+            return result;
+        }
+
+        public override void Write(Utf8JsonWriter writer, int? value, JsonSerializerOptions options)
+        {
+            throw new NotImplementedException();
+        }
     }
+    
+}

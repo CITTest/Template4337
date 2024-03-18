@@ -115,3 +115,9 @@ C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\obj\Debug\Tem
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
 C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.ResolveComReference.cache
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.Text.Json.dll
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.ValueTuple.dll
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.Text.Json.xml
+C:\Users\Honor\Source\Repos\Template4337\Template4337\Template4337\bin\Debug\System.ValueTuple.xml

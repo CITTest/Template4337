@@ -2,17 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using Excel = Microsoft.Office.Interop.Excel;
-using System.Windows.Forms.VisualStyles;
-using static System.Windows.Forms.AxHost;
+using Word = Microsoft.Office.Interop.Word;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Template4337
 {
@@ -130,14 +125,98 @@ namespace Template4337
             }
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private async void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            var openFileDialog = new OpenFileDialog()
+            {
+                DefaultExt = "*.json",
+                Title = "Выберите файлы json для импорта в базу данных",
+            };
 
+            var result = openFileDialog.ShowDialog();
+
+            if (!result.HasValue || !result.Value)
+                return;
+
+            var serv = new List<class1>();
+            
+            using (var fs = new FileStream(openFileDialog.FileName, FileMode.OpenOrCreate))
+            {
+                serv = await JsonSerializer.DeserializeAsync<List<class1>>(fs);
+            }
+
+
+            try
+            {
+                using (var context = new Context())
+                {
+                    await context.Class1s.AddRangeAsync(serv);
+                    await context.SaveChangesAsync();
+                    MessageBox.Show("Импортировано в базу данных");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка в доблавение в базу данных {ex.Message}");
+            }
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
+            const int idCol = 1;
+            const int Name = 2;
+            const int View = 3;
+            const int Code = 4;
+            const int Price = 5;
 
+            using (var context = new Context())
+            {
+                var status = context.Class1s.GroupBy(p => p.Group).Select(p => p.Key).ToList();
+
+                var app = new Word.Application();
+                var document = app.Documents.Add();
+
+                foreach (var stat in status)
+                {
+                    var orderThisStatus = context.Class1s.Where(p => p.Group == stat);
+
+                    var startIndexRow = 2;
+
+                    var paragraph = document.Paragraphs.Add();
+                    var range = paragraph.Range;
+                    range.Text = Convert.ToString(stat);
+                    range.InsertParagraphAfter();
+
+                    var talbe = document.Paragraphs.Add();
+                    var tableRange = talbe.Range;
+                    var table = document.Tables.Add(tableRange, orderThisStatus.Count() + 1, 5);
+                    table.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle;
+                    table.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle;
+                    table.Range.Cells.VerticalAlignment = Word.WdCellVerticalAlignment.wdCellAlignVerticalCenter;
+
+                    table.Cell(1, idCol).Range.Text = "ID";
+                    table.Cell(1, Name).Range.Text = "Название";
+                    table.Cell(1, View).Range.Text = "Вид";
+                    table.Cell(1, Code).Range.Text = "Код";
+                    table.Cell(1, Price).Range.Text = "Цена";
+
+                    foreach (var item in orderThisStatus)
+                    {
+                        table.Cell(startIndexRow, idCol).Range.Text = Convert.ToString(item.Id);
+                        table.Cell(startIndexRow, Name).Range.Text = item.Name;
+                        table.Cell(startIndexRow, View).Range.Text = item.View;
+                        table.Cell(startIndexRow, Code).Range.Text = item.Code;
+                        table.Cell(startIndexRow, Price).Range.Text = Convert.ToString(item.Price);
+
+                        startIndexRow++;
+                    }
+
+                    table.AllowAutoFit = true;
+                    tableRange.InsertParagraphAfter();
+                }
+
+                app.Visible = true;
+            }
         }
     }
 }
