@@ -97,7 +97,7 @@ namespace Template4337
                 app.SheetsInNewWorkbook = 3;
                 var workbook = app.Workbooks.Add(Type.Missing);
 
-                for (var i = 0; i < 3; i++)
+                for (var i = 0; i < 4; i++)
                 {
                     var worksheet = app.Worksheets.Item[i + 1];
                     worksheet.Name = "Page - " + i;

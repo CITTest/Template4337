@@ -26,20 +26,13 @@ namespace Template4337
             Price = price;
 
             if (Price < 351) Group = 1;
-            if (Price > 350 && Price < 801) Group = 2;
+            if (Price > 350 && Price < 800) Group = 2;
             if (Price > 800) Group = 3;
         }
     }
     public partial class Context : DbContext
     {
-        public Context()
-        {
-        }
-
-        public Context(DbContextOptions<Context> options)
-            : base(options)
-        {
-        }
+        
 
         public virtual DbSet<class1> Class1s { get; set; }
 
@@ -50,5 +43,6 @@ namespace Template4337
                 optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=isrpo3;Trusted_Connection=True;");
             }
         }
+        public Context() => Database.EnsureCreated();
     }
     }
