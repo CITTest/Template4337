@@ -25,9 +25,9 @@ namespace Template4337
             Code = code;
             Price = price;
 
-            if (Price < 351) Group = 1;
-            if (Price > 350 && Price < 800) Group = 2;
-            if (Price > 800) Group = 3;
+            if (Price < 351) Group = 0;
+            if (Price > 350 && Price < 800) Group = 1;
+            if (Price > 800) Group = 2;
         }
     }
     public partial class Context : DbContext

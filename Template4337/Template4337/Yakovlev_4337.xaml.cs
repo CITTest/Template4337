@@ -91,13 +91,16 @@ namespace Template4337
 
             using (var context = new Context())
             {
+                
+
                 var status = context.Class1s.GroupBy(p => p.Group).Select(p => p.Key).ToList();
+                int countsheet = status.Count;
 
                 var app = new Excel.Application();
-                app.SheetsInNewWorkbook = 3;
+                app.SheetsInNewWorkbook = countsheet;
                 var workbook = app.Workbooks.Add(Type.Missing);
 
-                for (var i = 0; i < 4; i++)
+                for (var i = 0; i < countsheet; i++)
                 {
                     var worksheet = app.Worksheets.Item[i + 1];
                     worksheet.Name = "Page - " + i;
