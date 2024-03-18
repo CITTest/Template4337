@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ISRPOEntities1Container" CdmEntityContainer="ISRPO1Entities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ISRPOEntities1.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ClientCode" ColumnName="ClientCode" />
+          <ScalarProperty Name="DataBirth" ColumnName="DataBirth" />
+          <ScalarProperty Name="ClientIndex" ColumnName="ClientIndex" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="House" ColumnName="House" />
+          <ScalarProperty Name="Flat" ColumnName="Flat" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

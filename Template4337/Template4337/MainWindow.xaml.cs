@@ -30,5 +30,11 @@ namespace Template4337
            Gatina_4337 g= new Gatina_4337();
             g.Show();
         }
+
+        private void gruppa4337_Kuzmina(object sender, RoutedEventArgs e)
+        {
+            Kuzmina_4337 g= new Kuzmina_4337();
+            g.Show();
+        }
     }
 }

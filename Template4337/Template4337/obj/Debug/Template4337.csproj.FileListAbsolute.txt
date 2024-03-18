@@ -16,3 +16,78 @@ C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Template4337.exe
 C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Template4337.pdb
 C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.g.cs
 C:\Nomer6\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.baml
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Template4337.exe.config
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Template4337.exe
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Template4337.pdb
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.AssemblyReference.cache
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Kuzmina_4337.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\MainWindow.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\App.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337_MarkupCompile.cache
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337_MarkupCompile.lref
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.baml
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\MainWindow.baml
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Kuzmina_4337.baml
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.g.resources
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.Properties.Resources.resources
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.GenerateResource.cache
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.CoreCompileInputs.cache
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.exe
+C:\Users\respe\OneDrive\Рабочий стол\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.pdb
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.AssemblyReference.cache
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.ResolveComReference.cache
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Kuzmina_4337.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\MainWindow.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\App.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337_Content.g.cs
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337_MarkupCompile.cache
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337_MarkupCompile.lref
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.exe
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.pdb
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Template4337.exe.config
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Template4337.exe
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Template4337.pdb
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\ExcelDataReader.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Newtonsoft.Json.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Buffers.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Memory.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Text.Json.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.ValueTuple.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Xceed.Document.NET.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Xceed.Pdf.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Xceed.Words.NET.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\ExcelDataReader.pdb
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\ExcelDataReader.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\Newtonsoft.Json.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Buffers.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Memory.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Text.Json.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\System.ValueTuple.xml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Gatina_4337.baml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Kuzmina_4337.baml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\MainWindow.baml
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.g.resources
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.Properties.Resources.resources
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.GenerateResource.cache
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template4337.csproj.CoreCompileInputs.cache
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\obj\Debug\Template.CD701948.Up2Date
+C:\Users\respe\OneDrive\Рабочий стол\smth\3 курс\ИСРПО\6 zadanie\Template4337\Template4337\Template4337\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
