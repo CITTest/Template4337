@@ -146,19 +146,19 @@ namespace Template4337
                 serv = await JsonSerializer.DeserializeAsync<List<class1>>(fs);
             }
 
-            using (var context = new Context())
-            {
-                for(int i = 0 ; i < serv.Count; i++)
-                {
-                    serv[i].checkGroup();
-                }
-                await context.Class1s.AddRangeAsync(serv);
-                await context.SaveChangesAsync();
-                MessageBox.Show("Импортировано в базу данных");
-            }
+            
             try
             {
-                
+                using (var context = new Context())
+                {
+                    for (int i = 0; i < serv.Count; i++)
+                    {
+                        serv[i].checkGroup();
+                    }
+                    await context.Class1s.AddRangeAsync(serv);
+                    await context.SaveChangesAsync();
+                    MessageBox.Show("Импортировано в базу данных");
+                }
             }
             catch (Exception ex)
             {
