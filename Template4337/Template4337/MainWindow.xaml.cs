@@ -25,9 +25,9 @@ namespace Template4337
             InitializeComponent();
         }
 
-        private void gruppa4337_Gatina(object sender, RoutedEventArgs e)
+        private void gruppa4337_Yakovlev(object sender, RoutedEventArgs e)
         {
-           Gatina_4337 g= new Gatina_4337();
+           Yakovlev_4337 g= new Yakovlev_4337();
             g.Show();
         }
     }
