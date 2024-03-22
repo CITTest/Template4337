@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Template4337"
         mc:Ignorable="d"
         Title="Zakirov_4337" Height="450" Width="800">
-    <Grid>
+    <StackPanel>
         <TextBlock Text="Закиров Раниль 18 лет"/>
-    </Grid>
+        <Button Click="ImportExcel">Импорт Excel</Button>
+        <Button Click="ExportExcel">Экспорт Excel</Button>
+        <Button Click="ImportJson">Импорт JSON</Button>
+        <Button Click="ExportWord">Экспорт WORD</Button>
+    </StackPanel>
 </Window>
